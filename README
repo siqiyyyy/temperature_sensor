@@ -1,0 +1,8 @@
+# Temperature sensor service running on Raspberry Pie
+
+## memo
+
+- executable: server_root_temp1_grafana.py
+- log file : server_root_temp1_grafana.log
+- pid file : /var/run/Temperature.pid (exist only when service is running, also used as lock file)
+- auto start at reboot : (as user pi) crontab -e
